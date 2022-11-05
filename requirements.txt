@@ -1,0 +1,16 @@
+pytest
+pylint
+click
+ipython
+jupyter
+fire
+pandas
+numpy
+matplotlib
+seaborn
+dask
+altair
+sqlalchemy
+sqlite3
+psycopg2
+pymysql
