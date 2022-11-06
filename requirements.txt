@@ -1,16 +1,9 @@
 pytest
 pylint
-click
 ipython
 jupyter
 fire
 pandas
 numpy
 matplotlib
-seaborn
-dask
-altair
-sqlalchemy
-psycopg2
-pymysql
 kaggle
