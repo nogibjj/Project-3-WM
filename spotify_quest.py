@@ -9,7 +9,7 @@ class askspotify:
         popsong = cnc.fetchall()
         print(f"The average length of a popular song is {popsong[0][0]:.2f} minutes.")
 
-    def avg_length_unpopular_songs(self):
+    def avg_length_bottom_songs(self):
         conn = sqlite3.connect("spotify.db")
         cnc = conn.cursor()
         cnc.execute("SELECT AVG(duration_ms)/60000 FROM spotify WHERE popularity < 10;")
@@ -23,7 +23,7 @@ class askspotify:
         popdance = cnc.fetchall()
         print(f"The average danceability of a popular song is {popdance[0][0]:.2f}.")
 
-    def dance_score_unpopular_songs(self):
+    def dance_score_bottom_songs(self):
         conn = sqlite3.connect("spotify.db")
         cnc = conn.cursor()
         cnc.execute("SELECT AVG(danceability) FROM spotify WHERE popularity < 10;")
