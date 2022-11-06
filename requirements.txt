@@ -11,6 +11,6 @@ seaborn
 dask
 altair
 sqlalchemy
-sqlite3
 psycopg2
 pymysql
+kaggle
