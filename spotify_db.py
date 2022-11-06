@@ -8,7 +8,7 @@ class SpotifyDB:
         """Creates a database with a table called 'spotify'
         :param: df: pandas dataframe"""
         conn = sqlite3.connect("spotify.db")
-        df = pd.read_csv("/workspaces/Project-3-WM/10_raw_data/spotify_dataset.csv")
+        df = pd.read_csv("spotify_dataset.csv")
         df.to_sql("spotify", conn, if_exists="replace", index=False)
         print('Database created')
         conn.commit()
