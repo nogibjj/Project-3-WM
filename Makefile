@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv spotify_db.py
+	python -m pytest -vv test_db.py
 
 format:
 	black *.py
