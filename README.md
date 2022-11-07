@@ -27,6 +27,9 @@ Here's the link to [Kaggle Spotify Dataset](https://www.kaggle.com/datasets/maha
 ## Try it yourself!
 
 Be bold, duplicate this repo, try these code yourself!
+
+I use Python Fire to make all functions accessible in the command line interface! Simply type `python filename.py command line`; for example: `python spotify_quest.py top_10_songs`
+
 Here's some preliminary questions that I made to start the engine:
 
 1. I love to dance!! I need to know the top and bottom 10 songs in the chart and their danceability score!
